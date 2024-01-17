@@ -1,0 +1,179 @@
+.text-pc {
+  display: block
+}
+
+.text-mob {
+  display: none
+}
+
+.partizan-teaser {
+  position: relative;
+  z-index: 1;
+  background: #1f2229;
+  padding: 4.3rem 0;
+
+  .teaser__body {
+    color: #fff;
+    padding-top: 7.2rem
+  }
+
+  .teaser__body .container {
+    display: flex;
+    align-items: flex-end
+  }
+
+  .teaser__body .teaser-title {
+    width: 70.3rem;
+    max-width: 100%;
+    z-index: 2;
+    flex: 700px 1 1
+  }
+
+  .teaser__body .teaser-title img {
+    max-width: 100%
+  }
+
+  .teaser__body .teaser-title .pic-mob {
+    display: none
+  }
+
+  .teaser__body .teaser-title .big-text {
+    font-size: 102px;
+    font-weight: 700;
+    line-height: 105px;
+    text-transform: uppercase;
+    letter-spacing: .05em
+  }
+
+  .teaser__body .teaser-title .big-text--pink {
+    color: #ff59a3
+  }
+
+  .teaser__body .teaser-title .text-pc {
+    display: inline-block
+  }
+
+  .teaser__body .teaser-caption {
+    width: 348px;
+    flex: 348px 0 1;
+    max-width: 100%;
+    padding-bottom: 1rem;
+    float: right;
+    padding-top: 5rem;
+    margin-right: 2rem
+  }
+
+  .teaser__body .teaser-caption p {
+    font-size: 24px
+  }
+
+  .teaser__body .teaser-caption_more {
+    color: #fff;
+    transition: .4s;
+    font-family: tele2_sans;
+    font-weight: 700;
+    opacity: 1
+  }
+
+  .teaser__body .teaser-caption_more .text-pc {
+    display: inline-block;
+
+    @media (max-width: 720px) {
+      display: none !important
+    }
+  }
+
+  .teaser__body .teaser-caption_more .ico {
+    font-size: .4em;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 .7em;
+    transition: .4s
+  }
+
+  .teaser__body .teaser-caption_more:hover {
+    opacity: .7
+  }
+
+  .teaser__body .ribbon {
+    display: none
+  }
+
+  .teaser__body .ribbon use {
+    stroke: #fff
+  }
+
+  .teaser__body .tilda {
+    height: 37px;
+    width: 93px;
+    margin-bottom: 2.7rem;
+    display: block
+  }
+
+  .teaser__body .tilda use {
+    fill: #fff;
+  }
+}
+
+@media (max-width: 820px) {
+  .partizan-teaser {
+    padding: 1.8rem 0
+  }
+
+  .partizan-teaser .teaser__body {
+    padding-top: 1.8rem
+  }
+
+  .partizan-teaser .teaser__body > .container {
+    display: block
+  }
+
+  .partizan-teaser .teaser__body .teaser-title .big-text {
+    font-size: 66px;
+    line-height: 70px
+  }
+
+  .partizan-teaser .teaser__body .teaser-title .pic-pc, .partizan-teaser .teaser__body .teaser-title .text-pc {
+    display: none
+  }
+
+  .partizan-teaser .teaser__body .teaser-title .pic-mob {
+    display: block;
+    width: 38rem;
+    margin: 3rem 0
+  }
+
+  .partizan-teaser .teaser__body .teaser-caption {
+    padding-top: 1.8rem;
+    float: none
+  }
+
+  .partizan-teaser .teaser__body .teaser-caption p {
+    display: none
+  }
+
+  .partizan-teaser .teaser__body .teaser-caption .text-mob {
+    display: inline-block
+  }
+
+  .partizan-teaser .teaser__body .tilda {
+    position: absolute;
+    top: 8rem;
+    right: 2rem
+  }
+
+  .partizan-teaser .teaser__body .tilda use {
+    fill: #ff59a3
+  }
+}
+
+@media (max-width: 1180px) {
+
+  .partizan-teaser .teaser__body .container {
+    justify-content: space-between
+  }
+
+  .partizan-teaser .teaser__body .teaser-title img {
+    width: 56rem
+  }
+}

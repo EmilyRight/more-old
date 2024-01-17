@@ -1,0 +1,624 @@
+.stripe {
+  background: #d8d8d8;
+  width: 7.8rem;
+  height: 35rem;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(-45deg) translate(8rem, 15rem)
+}
+
+.stripe--pink {
+  background: #ff59a3
+}
+
+.coffee {
+  position: relative;
+  z-index: 0
+}
+
+.coffee img {
+  max-width: 100%;
+  width: 23.6rem
+}
+
+.coffee2 {
+  margin-top: -10rem;
+  z-index: 4
+}
+
+.car, .coffee2 {
+  position: absolute
+}
+
+.car {
+  right: 0
+}
+
+.car img {
+  width: 60rem
+}
+
+.circle {
+  overflow: hidden;
+  height: 17rem;
+  width: 17rem;
+  background-color: transparent;
+  border-radius: initial;
+
+  @media (min-width: 820px) {
+    height: 35rem;
+    width: 35rem;
+  }
+}
+
+
+.circle--size1 {
+  height: 35rem;
+  width: 35rem
+}
+
+.circle--size2 {
+  height: 38rem;
+  width: 38rem
+}
+
+.circle--size3 {
+  height: 41rem;
+  width: 41rem
+}
+
+.circle--size11 {
+  width: 18rem;
+  height: 18.5rem;
+
+  @media (min-width: 820px) {
+    width: 36rem;
+    height: 37rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.circle--size12 {
+  height: 21rem;
+  width: 21rem;
+
+  @media (min-width: 820px) {
+    height: 44.3rem;
+    width: 44.3rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.circle--size13 {
+  width: 23rem;
+  height: auto;
+
+  @media (min-width: 820px) {
+    width: 40.7rem;
+    height: 33.6rem;
+  }
+
+  @media (min-width: 1260px) {
+    width: 47.7rem;
+    height: 40.6rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.circle--size14 {
+  height: 20rem;
+  width: 20rem;
+
+  @media (min-width: 820px) {
+    height: 35.6rem;
+    width: 35.6rem;
+  }
+
+  @media (min-width: 1260px) {
+    height: 40.6rem;
+    width: 40.6rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.circle--size15 {
+  width: 15rem;
+  height: auto;
+
+  @media (min-width: 820px) {
+    width: 25.2rem;
+    height: 32.6rem;
+  }
+
+  @media (min-width: 1260px) {
+    width: 29.2rem;
+    height: 36.6rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 25.2rem;
+      height: 32.6rem;
+    }
+
+    @media (min-width: 1260px) {
+      width: 29.2rem;
+      height: 36.6rem;
+    }
+  }
+}
+
+.circle--size16 {
+
+  img {
+    width: 17rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 34.8rem;
+      height: 32rem;
+    }
+  }
+}
+
+.circle--size17 {
+  img {
+    width: 17.5rem;
+    height: 17.5rem;
+
+    @media (min-width: 820px) {
+      width: 35rem;
+      height: 35rem;
+    }
+  }
+}
+
+.ribbon use {
+  stroke: #d1d8d6
+}
+
+.ribbon--pink use {
+  stroke: #ff59a3
+}
+
+.arrow {
+  top: -3rem;
+  left: -1.5rem;
+
+  img {
+    width: 14.3rem;
+    height: 14.3rem;
+  }
+}
+
+.doll {
+  z-index: -1;
+  top: -1rem;
+  right: -3rem
+}
+
+.arrow, .doll, .fire2 {
+  position: absolute
+}
+
+.sos img {
+  width: 49rem;
+  max-width: 100%
+}
+
+.airplane {
+  top: 5rem;
+  left: calc(50% - 6rem);
+
+  @media (min-width: 820px) {
+    top: 3rem;
+    left: -6rem;
+  }
+
+  img {
+    display: block;
+    width: 16rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 28.8rem;
+      height: 28.8rem;
+    }
+    @media (min-width: 1260px) {
+      width: 34.8rem;
+      height: 34.8rem;
+    }
+  }
+}
+
+.wallet {
+  display: none;
+  z-index: 3;
+  top: 5.6rem;
+  right: -3rem;
+
+  @media (min-width: 820px) {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 9rem;
+    height: 8.7rem;
+
+    @media (min-width: 1269px) {
+      width: 12rem;
+      height: 11.7rem;
+    }
+  }
+}
+
+.guard {
+  top: 5rem;
+  right: -1rem;
+
+  @media (min-width: 820px) {
+    top: -3.6rem;
+    right: -1.6rem;
+  }
+
+  @media (min-width: 1260px) {
+    top: -3.6rem;
+    right: -3.6rem;
+  }
+
+  img {
+    width: 11rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 18.5rem;
+      height: 23.2rem;
+    }
+
+    @media (min-width: 1260px) {
+      width: 21.5rem;
+      height: 26.2rem;
+    }
+  }
+}
+
+
+.shield {
+  display: none;
+  top: 4rem;
+  left: -2rem;
+
+  @media (min-width: 820px) {
+    display: block;
+  }
+
+  img {
+    width: 15rem;
+    height: 14rem;
+    margin-top: -4.5rem
+  }
+
+}
+
+
+.warn {
+  right: 0;
+  bottom: 0;
+  z-index: 1
+}
+
+.tick {
+  display: none;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+
+  @media (min-width: 820px) {
+    display: block;
+  }
+
+  img {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+.wink {
+  top: 0;
+  left: -5.5rem;
+  z-index: 3
+}
+
+.gift {
+  top: 5rem;
+  right: calc(50% - 7rem);
+
+  @media (min-width: 820px) {
+    top: 8rem;
+    right: 10rem;
+  }
+
+  img {
+    width: 14rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 23rem;
+      height: 26.3rem;
+    }
+
+    @media (min-width: 1260px) {
+      width: 28rem;
+      height: 31.3rem;
+    }
+  }
+}
+
+.fire {
+  top: -3rem;
+  right: -2rem
+}
+
+.fire img {
+  width: 28.5rem
+}
+
+.infinity {
+  z-index: 1;
+  top: 10rem;
+  right: 3rem;
+
+  @media (min-width: 820px) {
+    top: 17rem;
+    right: -1rem;
+  }
+
+  img {
+    display: block;
+    width: 15rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 36.4rem;
+      height: 17.6rem;
+    }
+  }
+}
+
+.infinity2 {
+  display: none;
+  z-index: 3;
+  top: 27rem;
+  left: -5rem;
+
+  @media (min-width: 820px) {
+    display: block;
+  }
+
+
+  img {
+    display: block;
+    width: 12.1rem;
+    height: 4.1rem;
+
+    @media (min-width: 820px) {
+      width: 14.1rem;
+      height: 6.1rem;
+    }
+  }
+}
+
+.pointer-arrow {
+  display: none;
+  z-index: 3;
+  top: 25rem;
+  left: 22rem;
+
+  @media (min-width: 820px) {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 13.8rem;
+    height: 13.8rem;
+  }
+}
+
+.lock {
+  display: none;
+  z-index: 3;
+  top: -5rem;
+  right: -2rem;
+
+  @media (min-width: 820px) {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 11.2rem;
+    height: 14.6rem;
+  }
+}
+
+.call {
+  top: 0;
+  left: -4rem;
+
+  @media (min-width: 820px) {
+    top: -4rem;
+    left: 9.5rem;
+  }
+
+  img {
+    display: block;
+    width: 16rem;
+    height: 14rem;
+
+    @media (min-width: 820px) {
+      width: 29.2rem;
+      height: auto;
+    }
+
+    @media (min-width: 1260px) {
+      width: 34.2rem;
+      height: 32rem;
+    }
+  }
+}
+
+.target {
+  z-index: -1;
+  top: -4rem;
+  left: 9rem;
+
+  @media (min-width: 820px) {
+    top: -8rem;
+    left: 20rem;
+  }
+
+  img {
+    display: block;
+    width: 12rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 22rem;
+      height: auto;
+    }
+
+    @media (min-width: 1260px) {
+      width: 22rem;
+      height: 21.8rem;
+    }
+  }
+}
+
+.helmet {
+  left: -1rem;
+  bottom: 2rem;
+
+  @media (min-width: 820px) {
+    left: -5.7rem;
+    bottom: 1rem;
+  }
+
+  img {
+    display: block;
+    width: 9rem;
+    height: auto;
+
+    @media (min-width: 820px) {
+      width: 15.1rem;
+      height: 23.5rem;
+    }
+
+    @media (min-width: 1260px) {
+      width: 18.1rem;
+      height: 26.5rem;
+    }
+  }
+}
+
+.fire2 {
+  top: 5rem;
+  left: 5rem;
+
+  img {
+    width: 8.7rem;
+    height: 12.4rem;
+  }
+}
+
+.clock {
+  z-index: 1;
+  bottom: 0;
+  right: 1rem;
+
+  @media (min-width: 820px) {
+    bottom: -4.5rem;
+    right: 0;
+  }
+
+  img {
+    display: block;
+    width: 9.12rem;
+    height: 12rem;
+
+    @media (min-width: 820px) {
+      width: 22.8rem;
+      height: 30rem;
+    }
+  }
+}
+
+.airplane, .fire, .gift, .guard, .warn, .wink, .shield, .clock,
+.tick, .infinity, .infinity2, .wallet, .call, .lock, .helmet, .pointer-arrow, .target {
+  position: absolute;
+}
+
+.film img {
+  width: 35rem
+}
+
+.airplane img, .film img, .fire img, .gift img, .guard img, .warn img, .shield img, .clock img, .tick img, .infinity img,
+.infinity img, .wallet img, .call img, .lock img, .helmet img {
+  max-width: 100%
+}
+
+.srch {
+  z-index: 2;
+  right: -2.7rem;
+  top: 0
+}
+
+.butterfly, .srch {
+  position: absolute
+}
+
+.butterfly {
+  bottom: -4rem;
+  left: -6rem
+}
+
+.butterfly img {
+  max-width: 100%
+}
+
+@media (max-width: 1180px) {
+
+  .fire img {
+    width: 26rem;
+    max-width: 100%
+  }
+
+  .circle--size3 {
+    width: 38rem;
+    height: 38rem
+  }
+
+  .butterfly img {
+    width: 28rem
+  }
+}
